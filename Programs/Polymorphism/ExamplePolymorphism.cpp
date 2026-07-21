@@ -37,6 +37,9 @@ public:
     }
     
     // Can't override getWheels() - it's not virtual
+     void getWheels() {
+        cout << "Vehicle has 4 wheels from Car" << endl;
+    }
 };
 
 // DERIVED CLASS 2
@@ -64,6 +67,8 @@ int main() {
     cout << "1. Direct object calls:" << endl;
     vehicle.startEngine();  // Base version
     car.startEngine();      // Car's overridden version
+    car.getWheels();        // Car's overridden version
+    
     tesla.startEngine();    // ElectricCar's overridden version
     cout << endl;
     
@@ -76,8 +81,8 @@ int main() {
     cout << endl;
     
     cout << "3. Non-virtual function (no override):" << endl;
-    car.getWheels();    // Always calls base version
-    tesla.getWheels();  // Can't be overridden
+    v1->getWheels();    // Always calls base version
+    v2->getWheels();    // Always calls base version
     cout << endl;
     
     cout << "4. Array of different vehicles:" << endl;
