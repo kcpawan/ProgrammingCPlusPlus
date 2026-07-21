@@ -20,5 +20,3 @@ int main() {
     ptr->display();
     return 0;
 }
-
-
