@@ -24,7 +24,7 @@ public:
 };
 
 // Virtual Inheritance from Person
-class Teacher : public Person {
+class Teacher : virtual public Person {
 //class Teacher : virtual public Person {
 protected:
     string staffID;
@@ -46,7 +46,7 @@ public:
 };
 
 // Virtual Inheritance from Person
-class Researcher : public Person {
+class Researcher : virtual public Person {
 //class Researcher : virtual public Person {
 protected:
     string projectID;
@@ -64,6 +64,10 @@ public:
     void setResearcherDetails(string pid, string area) {
         projectID = pid;
         researchArea = area;
+    }
+
+    void helloWorld(){
+        cout << "Hello World. I am Researcher" << endl;
     }
 };
 
@@ -102,13 +106,20 @@ int main() {
     // Now works perfectly!
     prof.setTeacherDetails("T123", "Computer Science");
     prof.setResearcherDetails("R456", "AI Research");
-    prof.setPersonDetails("Dr. Sharma", 1001);
+    prof.setPersonDetails("Anish Thapa", 1001);
     
+    cout << endl;
+    cout << "===================== Virtual Class Implementation ================================" << endl;
+
     prof.displayInfo();
     
     // Memory is optimized!
     // Only ONE copy of Person exists
     cout << "\nMemory is optimized - one Person shared!" << endl;
+
+    cout << "====================================================================================" << endl;
+
+    prof.helloWorld();
     
     return 0;
 }
