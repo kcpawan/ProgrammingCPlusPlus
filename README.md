@@ -17,7 +17,7 @@ Each topic consists of detailed explanations, notes, Programs.
 
 
 2. C++ programming concept<br />   
-	2.1 Introduction to programming in C++.<br />
+	2.1 Introduction to programming in C++<br />
 	2.2 Extraction operator (>>)<br />
 	2.3 Insertion operator (<<)<br />
 	2.4 Type conversion: automatic conversion, cast<br />
@@ -27,7 +27,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	2.8 Const<br />
 	2.9 Enumeration<br /> 
 
-4. Functions used in C++<br />     
+3. Functions used in C++<br />     
 	3.1 Introduction to functions<br />  
 	3.2 Passing arguments to functions<br />  
 	3.3 Returning values from functions<br /> 
@@ -38,8 +38,8 @@ Each topic consists of detailed explanations, notes, Programs.
 		3.6.2 Different kinds of arguments<br /> 
 	3.7 Default arguments<br /> 
 	3.8 Inline functions<br />
-<br />   
-6. Classes and objects<br />  
+	
+4. Classes and objects<br />  
 	4.1 Introduction<br />  
 	4.2 Access specifier (public, private and protected)<br />  
 	4.3 Accessing class members<br /> 
@@ -58,7 +58,10 @@ Each topic consists of detailed explanations, notes, Programs.
 	4.11 Passing objects as arguments<br /> 
 	4.12 Friend functions<br />     
 	4.13 Friend classes<br />
-   <br />   
+
+
+
+
 8. Operator overloading. 
 	5.1 Introduction to operator overloading
 	5.2 General rules for overloading operator
