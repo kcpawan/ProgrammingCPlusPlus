@@ -5,8 +5,8 @@ This Repository consists of full course details notes and programs that can be u
 Each topic consists of detailed explanations, notes, Programs. 
   
    
-1. Introduction to object oriented programming.  
-	1.1 Procedural language vs OOP. 
+1. Introduction to object oriented programming. <br /> 
+	1.1 Procedural language vs OOP. <br />
 	1.2 Characteristics of object-oriented languages. 
 		1.2.1 Objects. 
 		1.2.2 Classes. 
