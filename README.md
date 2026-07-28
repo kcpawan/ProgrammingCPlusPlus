@@ -15,18 +15,18 @@ Each topic consists of detailed explanations, notes, Programs.
 			1.2.5 Polymorphism & overloading<br />
 	1.3 Applications of OOP<br />
   
-3. C++ programming concept   
-	2.1 Introduction to programming in C++. 
-	2.2 Extraction operator (>>). 
-	2.3 Insertion operator (<<). 
-	2.4 Type conversion: automatic conversion, cast. 
-	2.5 Arrays and pointers in C++. 
-	2.6 New and delete operators. 
-	2.7 Manipulators. 
-	2.8 Const. 
-	2.9 Enumeration. 
+2. C++ programming concept<br />   
+	2.1 Introduction to programming in C++.<br /> 
+	2.2 Extraction operator (>>)<br />
+	2.3 Insertion operator (<<)<br />
+	2.4 Type conversion: automatic conversion, cast<br />
+	2.5 Arrays and pointers in C++<br />
+	2.6 New and delete operators<br />
+	2.7 Manipulators<br />
+	2.8 Const<br />
+	2.9 Enumeration<br /> 
   
-4. Functions used in C++.    
+3. Functions used in C++.    
 	3.1 Introduction to functions. 
 	3.2 Passing arguments to functions. 
 	3.3 Returning values from functions. 
@@ -38,7 +38,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	3.7 Default arguments. 
 	3.8 Inline functions. 
   
-5. Classes and objects. 
+4. Classes and objects. 
 	4.1 Introduction. 
 	4.2 Access specifier (public, private and protected). 
 	4.3 Accessing class members. 
