@@ -27,7 +27,6 @@ Each topic consists of detailed explanations, notes, Programs.
 	2.8 Const<br />
 	2.9 Enumeration<br /> 
 
-
 4. Functions used in C++<br />     
 	3.1 Introduction to functions<br />  
 	3.2 Passing arguments to functions<br />  
