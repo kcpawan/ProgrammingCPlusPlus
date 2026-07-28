@@ -2,64 +2,64 @@ Object Oriented Programming with C++
 
 This Repository consists of full course details notes and programs that can be used for studying Object Oriented Programming with C++. This course is structured and developed based on the curriculum developed by Purbanchal University Goathgau, Nepal.
 
-Each topic consists of detailed explanations, notes, Programs
-
- 
-1. Introduction to object oriented programming 
-	1.1 Procedural language vs OOP
-	1.2 Characteristics of object-oriented languages
-		1.2.1 Objects
-		1.2.2 Classes
-		1.2.3 Inheritance
-		1.2.4 Reusability
-		1.2.5 Polymorphism & overloading
-	1.3 Applications of OOP
-
-2. C++ programming concept 
-	2.1 Introduction to programming in C++
-	2.2 Extraction operator (>>)
-	2.3 Insertion operator (<<)
-	2.4 Type conversion: automatic conversion, cast
-	2.5 Arrays and pointers in C++
-	2.6 New and delete operators
-	2.7 Manipulators
-	2.8 Const
-	2.9 Enumeration
-
-3. Functions used in C++ 
-	3.1 Introduction to functions
-	3.2 Passing arguments to functions
-	3.3 Returning values from functions
-	3.4 Reference arguments
-	3.5 Returning by reference
-	3.6 Functions overloading
-		3.6.1 Different number of arguments, 
-		3.6.2 Different kinds of arguments
-	3.7 Default arguments
-	3.8 Inline functions
-
-4. Classes and objects
-	4.1 Introduction
-	4.2 Access specifier (public, private and protected)
-	4.3 Accessing class members
-	4.4 Defining member functions
-		4.4.1 Member function inside the class body
-		4.4.2 Member function outside the class body
-	4.5 “this” pointer
-	4.6 Constructor & destructor
-	4.7 Types of constructor
-		4.7.1 Default constructor
-		4.7.2 Parameterized constructor
-		4.7.3 Copy constructor
-	4.8 Overloaded constructors
-	4.9 Static data member
-	4.10 Static member functions
-	4.11 Passing objects as arguments
-	4.12 Friend functions 
-	4.13 Friend classes
-
-
-5. Operator overloading
+Each topic consists of detailed explanations, notes, Programs. 
+  
+   
+1. Introduction to object oriented programming.  
+	1.1 Procedural language vs OOP. 
+	1.2 Characteristics of object-oriented languages. 
+		1.2.1 Objects. 
+		1.2.2 Classes. 
+		1.2.3 Inheritance. 
+		1.2.4 Reusability. 
+		1.2.5 Polymorphism & overloading. 
+	1.3 Applications of OOP. 
+  
+2. C++ programming concept   
+	2.1 Introduction to programming in C++. 
+	2.2 Extraction operator (>>). 
+	2.3 Insertion operator (<<). 
+	2.4 Type conversion: automatic conversion, cast. 
+	2.5 Arrays and pointers in C++. 
+	2.6 New and delete operators. 
+	2.7 Manipulators. 
+	2.8 Const. 
+	2.9 Enumeration. 
+  
+3. Functions used in C++.    
+	3.1 Introduction to functions. 
+	3.2 Passing arguments to functions. 
+	3.3 Returning values from functions. 
+	3.4 Reference arguments. 
+	3.5 Returning by reference. 
+	3.6 Functions overloading. 
+		3.6.1 Different number of arguments,   
+		3.6.2 Different kinds of arguments. 
+	3.7 Default arguments. 
+	3.8 Inline functions. 
+  
+4. Classes and objects. 
+	4.1 Introduction. 
+	4.2 Access specifier (public, private and protected). 
+	4.3 Accessing class members. 
+	4.4 Defining member functions. 
+		4.4.1 Member function inside the class body. 
+		4.4.2 Member function outside the class body. 
+	4.5 “this” pointer. 
+	4.6 Constructor & destructor. 
+	4.7 Types of constructor. 
+		4.7.1 Default constructor. 
+		4.7.2 Parameterized constructor. 
+		4.7.3 Copy constructor. 
+	4.8 Overloaded constructors. 
+	4.9 Static data member. 
+	4.10 Static member functions. 
+	4.11 Passing objects as arguments. 
+	4.12 Friend functions.    
+	4.13 Friend classes. 
+  
+  
+5. Operator overloading. 
 	5.1 Introduction to operator overloading
 	5.2 General rules for overloading operator
 	5.3 Operator overloading restrictions
