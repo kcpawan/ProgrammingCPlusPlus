@@ -1,10 +1,77 @@
-Object Oriented Programming with C++
+# Object Oriented Programming with C++
 
-This Repository consists of full course details notes and programs that can be used for studying Object Oriented Programming with C++. This course is structured and developed based on the curriculum developed by Purbanchal University Goathgau, Nepal.
+This repository consists of full course notes and programs for studying **Object Oriented Programming (OOP) with C++**. The course is structured and developed based on the curriculum prescribed by **Purbanchal University, Gothgaun, Nepal**.
+
+Each topic includes detailed explanations, notes, and working programs, organized to move from programming fundamentals through to OOP concepts as implemented in C++.
+
 <br />
-Each topic consists of detailed explanations, notes, Programs. 
-<br /> 
+
+## Background
+
+### 1. What is Programming?
+
+Programming is the process of instructing a computer to perform a specific set of tasks by writing code in a language it can interpret or compile. At its core, every program is built on three fundamentals:
+
+- **Data** — the values a program works with (numbers, text, structures)
+- **Logic** — the sequence of decisions and computations applied to that data (conditionals, loops, functions)
+- **Control flow** — the order in which instructions execute
+
+Before a student can reason about *objects*, *classes*, or *inheritance*, they need a solid grounding in **procedural programming**: variables and data types, operators and expressions, control structures (`if`/`else`, `switch`, loops), functions, arrays, pointers, and memory. This repository assumes and briefly reinforces that foundation, since C++ requires more explicit memory and type management than many higher-level languages.
+
+### 2. What is Object Oriented Programming (OOP)?
+
+As programs grow in size and complexity, purely procedural code (a long sequence of functions operating on shared data) becomes hard to extend, test, and maintain. **Object Oriented Programming** is a paradigm that organizes code around *objects* — self-contained units that bundle data (attributes) with the behavior (methods) that operates on that data.
+
+OOP is built on four pillars, each covered as a dedicated unit in this repository:
+
+| Concept | What it means | Why it matters |
+|---|---|---|
+| **Encapsulation** | Bundling data and methods together, restricting direct access to internal state | Protects data integrity, hides implementation detail |
+| **Abstraction** | Exposing only relevant details, hiding complexity behind a clean interface | Reduces cognitive load, simplifies usage |
+| **Inheritance** | Deriving new classes from existing ones to reuse and extend behavior | Promotes code reuse, models real-world hierarchies |
+| **Polymorphism** | Allowing objects of different types to be treated through a common interface | Enables flexible, extensible design (compile-time and run-time) |
+
+OOP shifts the design question from *"what steps does this program follow?"* to *"what are the entities in this problem, and how do they interact?"* — a mindset that maps naturally onto real-world systems and is the basis for most modern large-scale software.
+
+### 3. Why C++?
+
+C++ is used to teach OOP for a specific reason: it is a **multi-paradigm language** that sits close to the hardware while still offering full OOP support. This makes it an ideal teaching tool because it forces students to understand *both*:
+
+- **What's happening underneath** — manual memory management (`new`/`delete`), pointers, references, and how objects are actually laid out and constructed/destructed — concepts that many higher-level OOP languages abstract away entirely.
+- **How OOP is expressed in syntax** — classes, constructors/destructors, access specifiers, operator overloading, virtual functions, templates, and the Standard Template Library (STL).
+
+Because C++ doesn't hide the machine, students who learn OOP through it build an intuition for *why* the paradigm works, not just how to use its syntax — a foundation that transfers cleanly to Java, C#, Python, and other OOP languages later.
+
 <br />
+
+## Repository Structure
+
+The material is organized unit-by-unit, following the Purbanchal University syllabus sequence. Each unit typically contains:
+
+- **Notes** — concept explanations and theory
+- **Programs** — annotated `.cpp` source files demonstrating each concept
+- **Practice problems** — where applicable, exercises to reinforce the unit
+
+*(Add/update this section with your actual folder names once finalized — happy to tailor it to the exact structure if you share it.)*
+
+## Who This Is For
+
+Primarily built for students following the Purbanchal University B.E./BSc.CSIT OOP with C++ curriculum, but usable by anyone looking for a structured, notes-plus-code path from programming fundamentals into Object Oriented design using C++.
+
+## How to Use This Repository
+
+1. Work through units in order — later units assume earlier OOP concepts.
+2. Read the notes for a topic first, then study the accompanying program.
+3. Compile and run the programs yourself; modify them to test your understanding.
+4. Attempt any included practice problems before checking solutions.
+
+## Prerequisites
+
+- A C++ compiler (GCC/G++, Clang, or MSVC)
+- Basic familiarity with any programming language is helpful but not required — Unit 1 covers programming fundamentals from scratch.
+
+## Course Content
+
 1. Introduction to object oriented programming<br /> 
 	1.1 Procedural language vs OOP<br />
 	1.2 Characteristics of object-oriented languages<br />
