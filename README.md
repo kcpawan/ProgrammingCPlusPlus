@@ -14,7 +14,8 @@ Each topic consists of detailed explanations, notes, Programs.
 			1.2.4 Reusability<br />
 			1.2.5 Polymorphism & overloading<br />
 	1.3 Applications of OOP<br />
-<br />  
+
+
 2. C++ programming concept<br />   
 	2.1 Introduction to programming in C++.<br />
 	2.2 Extraction operator (>>)<br />
@@ -25,7 +26,8 @@ Each topic consists of detailed explanations, notes, Programs.
 	2.7 Manipulators<br />
 	2.8 Const<br />
 	2.9 Enumeration<br /> 
-<br />   
+
+
 4. Functions used in C++<br />     
 	3.1 Introduction to functions<br />  
 	3.2 Passing arguments to functions<br />  
