@@ -1104,18 +1104,64 @@ ProgrammingCPlusPlus/
 │	  ├── 4.4 Defining member functions/
 │	  │   ├──	4.4.1 Member function inside the class body/
 │	  │   └──	4.4.2 Member function outside the class body/
-│	  ├──4.5 “this” pointer/
-│	  ├──4.6 Constructor & destructor/
-│	  ├──4.7 Types of constructor/
-│	  │	 ├──4.7.1 Default constructor/
-│	  │	 ├──4.7.2 Parameterized constructor/ 
-│	  │	 └──4.7.3 Copy constructor/
+│	  ├── 4.5 “this” pointer/
+│	  ├── 4.6 Constructor & destructor/
+│	  ├── 4.7 Types of constructor/
+│	  │	  ├──4.7.1 Default constructor/
+│	  │	  ├──4.7.2 Parameterized constructor/ 
+│	  │	  └──4.7.3 Copy constructor/
 │	  ├── 4.8 Overloaded constructors/
 │	  ├── 4.9 Static data member/ 
 │	  ├── 4.10 Static member functions/
 │	  ├── 4.11 Passing objects as arguments/
 │	  ├── 4.12 Friend functions/
 │	  └── 4.13 Friend classes/
+├── 05-Operator overloading/
+│	├── 5.1 Introduction to operator overloading/
+│	├── 5.2 General rules for overloading operator/
+│	├── 5.3 Operator overloading restrictions/
+│	├── 5.4 Overloading unary and binary operators/
+│	├── 5.5 Operator overloading using friend functions/
+│	└── 5.6 Data conversion/
+│	    ├── 5.6.1 Conversion between basic types and object/
+│	    ├── 5.6.2 Conversion between object and basic types/
+│	    └── 5.6.3 Conversion between objects of different classes/
+├── 06-Virtual functions and Polymorphism/
+│    ├── 6.1 Introduction/
+│	 ├── 6.2 Early vs late binding/
+│	 ├── 6.3 Virtual functions/
+│	 ├── 6.4 Pure virtual functions/
+│	 ├── 6.5 Abstract classes/
+│	 └── 6.6 Virtual base classes/
+├── 07-Inheritance/
+│    ├── 7.1 Introduction & benefits of inheritance/
+│	 ├── 7.2 Types of inheritance/
+│	 ├── 7.3 Inheritance: base classes & derived classes/
+│	 ├── 7.4 Using constructors and destructors in derived classes/
+│	 ├── 7.5 Abstract base class/
+│	 ├── 7.6 Public, private and protected inheritance/
+│    ├── 7.7 Structural Crisis/
+│    │   ├── 7.7.1 Multipath Ambiguity/
+│    │   └── 7.7.2 Diamond Problem/
+│    │       ├── 7.7.2.1 Virtual Inheritance, Virtual Base Classes & Scope Resolution/
+│    │       ├── 7.7.2.2 Method Overriding/
+│    │       └── 7.7.2.3 Abstract Base Classes/
+│    └── 7.8 Containership 
+│        ├── 7.8.1 Constructors Build Up
+│        └── 7.8.2 Destructors Tear Down
+├── 08-Templates/
+│
+│
+│
+│
+│
+│
+│
+│
+│
+
+
+
 ```
 
 ---
@@ -1197,7 +1243,7 @@ Maintained by [Pawan KC](https://github.com/kcpawan).
 	6.3 Virtual functions<br />
 	6.4 Pure virtual functions<br />
 	6.5 Abstract classes<br />
-6.6 Virtual base classes<br />
+    6.6 Virtual base classes<br />
 
 7. Inheritance<br />
 	7.1 Introduction & benefits of inheritance<br />
