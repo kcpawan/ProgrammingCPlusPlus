@@ -47,7 +47,6 @@ Each topic below includes: **Notes**, a **Real-life Analogy**, a **Program**, an
 
 ## 1.1 Procedural Language vs OOP
 
-**Notes**
 
 A **procedural language** (C, Pascal, FORTRAN) organizes a program as a sequence of instructions grouped into functions. Data and functions are separate; data is typically passed around as parameters between functions, and any function can usually access and change any data it is given. As programs grow, this separation makes it hard to control which parts of the code can touch a given piece of data, so bugs and unintended side effects multiply.
 
@@ -122,7 +121,6 @@ In the procedural version, `Student` is a passive data structure (`struct`) and 
 
 ### 1.2.1 Objects
 
-**Notes**
 
 An **object** is a run-time entity that combines **state** (data members/attributes) and **behavior** (member functions/methods). It is a concrete instance of a class — if a class is the blueprint, the object is the actual thing built from that blueprint. Every object has its own copy of the data members (unless declared `static`), but shares the class's member functions.
 
@@ -168,7 +166,6 @@ int main() {
 
 ### 1.2.2 Classes
 
-**Notes**
 
 A **class** is a user-defined blueprint or template that defines the data members and member functions common to all objects of that type. It does not occupy memory by itself — memory is allocated only when an object of that class is created. A class typically groups members into `private` (hidden, accessible only within the class), `protected` (accessible within the class and its derived classes), and `public` (accessible from outside).
 
@@ -210,7 +207,6 @@ int main() {
 
 ### 1.2.3 Inheritance
 
-**Notes**
 
 **Inheritance** lets a new class (**derived/child class**) acquire the properties and behaviors of an existing class (**base/parent class**), and then extend or override them. It models "is-a" relationships (a `Car` **is a** `Vehicle`) and is a major mechanism for code reuse. C++ supports single, multiple, multilevel, hierarchical, and hybrid inheritance, and access to inherited members is controlled by `public`, `protected`, or `private` inheritance mode.
 
@@ -257,7 +253,6 @@ int main() {
 
 ### 1.2.4 Reusability
 
-**Notes**
 
 **Reusability** is the ability to use existing classes/code to build new functionality without rewriting it, achieved mainly through inheritance and composition (building an object out of other objects) in OOP. It reduces development time, testing effort, and bugs, since well-tested code is reused rather than reproduced.
 
@@ -299,8 +294,6 @@ int main() {
 ---
 
 ### 1.2.5 Polymorphism & Overloading
-
-**Notes**
 
 **Polymorphism** ("many forms") means the same function name or operator behaves differently depending on the context — the object it's called on, or the arguments passed to it. C++ supports two main kinds:
 - **Compile-time (static) polymorphism** — resolved by the compiler at compile time. Achieved via **function overloading** (same function name, different parameter lists) and **operator overloading**.
@@ -356,7 +349,6 @@ int main() {
 
 ## 1.3 Applications of OOP
 
-**Notes**
 
 OOP's ability to model real-world entities directly makes it the dominant paradigm for large, complex, and long-lived software. Common application areas include:
 - **GUI and desktop applications** — windows, buttons, menus as objects.
@@ -409,7 +401,6 @@ Real applications like library management, hospital records, and e-commerce syst
 
 ## 2.1 Introduction to Programming in C++
 
-**Notes**
 
 C++ was developed by **Bjarne Stroustrup** at Bell Labs (starting 1979, originally "C with Classes") as an extension of C, adding OOP features while retaining C's low-level control and performance. Every C++ program has one `main()` function, the program's entry point. Key building blocks: headers (`#include`), namespaces (`using namespace std;`), statements, and functions. C++ is a compiled, statically-typed, multi-paradigm language (supports procedural, object-oriented, and generic programming).
 
@@ -437,7 +428,6 @@ int main() {           // program entry point
 
 ## 2.2 Extraction Operator (>>)
 
-**Notes**
 
 The **extraction operator `>>`** (also called the **stream extraction / input operator**) reads (extracts) data **from** an input stream (like `cin`, the keyboard) **into** a variable. It automatically skips leading whitespace for most types and stops reading at the next whitespace. It can be chained: `cin >> a >> b;`.
 
@@ -471,7 +461,6 @@ int main() {
 
 ## 2.3 Insertion Operator (<<)
 
-**Notes**
 
 The **insertion operator `<<`** (stream insertion / output operator) sends (inserts) data **from** a variable or literal **into** an output stream (like `cout`, the screen). It can also be chained, and works with manipulators (see 2.7) to control formatting.
 
@@ -502,7 +491,6 @@ Each `<<` inserts the item on its right into `cout`, and the operator returns th
 
 ## 2.4 Type Conversion: Automatic Conversion, Cast
 
-**Notes**
 
 - **Automatic (implicit) conversion**: The compiler converts one data type to another automatically when it's "safe" or well-defined — e.g., `int` to `double` in a mixed expression, or during assignment/function calls. This follows C++'s standard promotion/conversion rules (`char` → `int` → `float` → `double`, etc.).
 - **Explicit conversion (casting)**: The programmer forces a conversion using a cast. C++ offers:
@@ -545,7 +533,6 @@ In `a + b`, the compiler implicitly promotes `a` (an `int`) to `double` before a
 
 ## 2.5 Arrays and Pointers in C++
 
-**Notes**
 
 An **array** is a fixed-size, contiguous block of memory holding elements of the same type, accessed via an index (`arr[0]`, `arr[1]`, ...). A **pointer** is a variable that stores the memory address of another variable. In C++, the array name itself decays into a pointer to its first element in most expressions, which is why `arr[i]` and `*(arr + i)` are equivalent. Pointers enable dynamic memory access, passing large data efficiently, and building dynamic data structures (linked lists, trees).
 
@@ -585,7 +572,6 @@ int main() {
 
 ## 2.6 New and Delete Operators
 
-**Notes**
 
 `new` and `delete` manage **dynamic memory** (heap memory) in C++, replacing C's `malloc()`/`free()`.
 - `new` allocates memory at run time and returns a pointer to it; `new Type[n]` allocates an array.
@@ -627,7 +613,6 @@ int main() {
 
 ## 2.7 Manipulators
 
-**Notes**
 
 **Manipulators** are special functions used with `<<` and `>>` to format stream input/output (from `<iomanip>` and `<iostream>`). Common ones:
 - `endl` — inserts a newline and flushes the stream.
@@ -670,7 +655,6 @@ int main() {
 
 ## 2.8 Const
 
-**Notes**
 
 The `const` keyword marks a value as **immutable** after initialization — the compiler enforces this and rejects any code that tries to modify it. Uses include:
 - `const int x = 10;` — a constant variable.
@@ -724,7 +708,6 @@ int main() {
 
 ## 2.9 Enumeration
 
-**Notes**
 
 An **enumeration (`enum`)** defines a named set of integer constants, improving code readability compared to raw "magic numbers." By default, values start at 0 and increase by 1, but can be assigned explicitly. C++11 introduced **scoped enums** (`enum class`) which avoid naming clashes and require explicit qualification (`Color::RED`), unlike plain `enum` values which leak into the surrounding scope.
 
@@ -764,7 +747,6 @@ int main() {
 
 ## 3.1 Introduction to Functions
 
-**Notes**
 
 A **function** is a named, reusable block of code that performs a specific task, optionally taking inputs (parameters) and optionally returning a value. Functions have a **declaration/prototype** (signature) and a **definition** (body). Benefits: modularity, reusability, easier debugging/testing, and abstraction (hiding implementation detail behind a name).
 
@@ -797,7 +779,6 @@ int main() {
 
 ## 3.2 Passing Arguments to Functions
 
-**Notes**
 
 C++ supports two primary ways of passing arguments:
 - **Pass by value**: A *copy* of the argument is passed; changes inside the function do not affect the original variable. Default in C++.
@@ -842,7 +823,6 @@ int main() {
 
 ## 3.3 Returning Values from Functions
 
-**Notes**
 
 A function's **return type**, declared before its name, specifies the type of value it sends back to the caller using the `return` statement. A function can return at most one value directly (though a `struct`/`class`/`pair`/`tuple` can bundle multiple values into one returned object). `void` means the function returns nothing.
 
@@ -876,7 +856,6 @@ int main() {
 
 ## 3.4 Reference Arguments
 
-**Notes**
 
 A **reference parameter** (`Type& name`) is an alias for the caller's actual variable — no copy is made, and any change inside the function is reflected outside it. References are commonly used to (a) avoid the cost of copying large objects, and (b) allow a function to modify multiple caller variables (something a single `return` cannot do alone). Use `const Type&` when you want the efficiency of a reference without allowing modification.
 
@@ -915,7 +894,6 @@ int main() {
 
 ## 3.5 Returning by Reference
 
-**Notes**
 
 A function can return a **reference** (`Type&`) instead of a value, meaning it hands back an alias to an existing variable rather than a copy. This is efficient for large objects and is essential for enabling expressions like `a[i] = 5` (where `operator[]` returns a reference so it can appear on the *left* side of an assignment). **Caution**: never return a reference to a local variable — it will be destroyed when the function ends, leaving a **dangling reference**.
 
@@ -953,7 +931,6 @@ Because `getElement()` returns `int&` (a reference), the expression `getElement(
 
 ## 3.6 Function Overloading
 
-**Notes**
 
 **Function overloading** lets multiple functions share the same name as long as their **parameter lists differ** (in number and/or type) — this is compile-time (static) polymorphism (see 1.2.5). The compiler picks the correct version based on the arguments used at each call site. The return type alone is *not* enough to distinguish overloaded functions.
 
@@ -1024,8 +1001,6 @@ Here, all three `show()` functions take exactly one parameter, but of different 
 
 ## 3.7 Default Arguments
 
-**Notes**
-
 A **default argument** supplies a fallback value for a parameter, used automatically when the caller omits that argument. Default values are specified in the function's **declaration** (or definition if there's no separate declaration), and once a parameter has a default value, every parameter after it must also have one. Callers can override any default simply by supplying their own value.
 
 **Real-life Analogy**
@@ -1057,7 +1032,6 @@ The first call omits the second argument, so the compiler automatically substitu
 
 ## 3.8 Inline Functions
 
-**Notes**
 
 An `inline` function is a *hint* to the compiler to replace each call to a small function with its actual code body directly at the call site, instead of doing a normal function call (which has overhead: pushing arguments to the stack, jump, return). This can speed up execution for small, frequently-called functions, at the cost of a larger compiled binary (code duplication). The compiler is free to ignore the `inline` hint for larger or recursive functions.
 
@@ -1112,17 +1086,36 @@ ProgrammingCPlusPlus/
 │   ├── 2.7-Manipulators/
 │   ├── 2.8-Const/
 │   └── 2.9-Enumeration/
-└── 03-Functions-in-CPP/
-    ├── 3.1-Introduction-to-Functions/
-    ├── 3.2-Passing-Arguments/
-    ├── 3.3-Returning-Values/
-    ├── 3.4-Reference-Arguments/
-    ├── 3.5-Returning-by-Reference/
-    ├── 3.6-Function-Overloading/
-    │   ├── 3.6.1-Different-Number-of-Arguments/
-    │   └── 3.6.2-Different-Kinds-of-Arguments/
-    ├── 3.7-Default-Arguments/
-    └── 3.8-Inline-Functions/
+├── 03-Functions-in-CPP/
+│    ├── 3.1-Introduction-to-Functions/
+│    ├── 3.2-Passing-Arguments/
+│    ├── 3.3-Returning-Values/
+│    ├── 3.4-Reference-Arguments/
+│    ├── 3.5-Returning-by-Reference/
+│    ├── 3.6-Function-Overloading/
+│    │   ├── 3.6.1-Different-Number-of-Arguments/
+│    │   └── 3.6.2-Different-Kinds-of-Arguments/
+│    ├── 3.7-Default-Arguments/
+│    └── 3.8-Inline-Functions/
+├── 04-Classes and objects/
+│     ├── 4.1- Introduction/
+│	  ├── 4.2 Access specifier (public, private and protected)/
+│	  ├── 4.3 Accessing class members/
+│	  ├── 4.4 Defining member functions/
+│	  │   ├──	4.4.1 Member function inside the class body/
+│	  │   └──	4.4.2 Member function outside the class body/
+│	  ├──4.5 “this” pointer/
+│	  ├──4.6 Constructor & destructor/
+│	  ├──4.7 Types of constructor/
+│	  │	 ├──4.7.1 Default constructor/
+│	  │	 ├──4.7.2 Parameterized constructor/ 
+│	  │	 └──4.7.3 Copy constructor/
+│	  ├── 4.8 Overloaded constructors/
+│	  ├── 4.9 Static data member/ 
+│	  ├── 4.10 Static member functions/
+│	  ├── 4.11 Passing objects as arguments/
+│	  ├── 4.12 Friend functions/
+│	  └── 4.13 Friend classes/
 ```
 
 ---
