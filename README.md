@@ -1066,6 +1066,7 @@ Because `square()` is marked `inline` and is trivially small, the compiler may r
 
 ```
 ProgrammingCPlusPlus/
+│ 
 ├── LearningMaterials
 │    ├── 01-AbriefHistoryOfProgramming.mp4/
 │    └── 02-Assignment C++.rtf
