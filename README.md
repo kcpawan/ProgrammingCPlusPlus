@@ -1,21 +1,21 @@
 Object Oriented Programming with C++
 
 This Repository consists of full course details notes and programs that can be used for studying Object Oriented Programming with C++. This course is structured and developed based on the curriculum developed by Purbanchal University Goathgau, Nepal.
-
+<br />
 Each topic consists of detailed explanations, notes, Programs. 
+<br /> 
+<br />
+1. Introduction to object oriented programming<br /> 
+	1.1 Procedural language vs OOP<br />
+	1.2 Characteristics of object-oriented languages<br />
+			1.2.1 Objects<br />
+			1.2.2 Classes<br />
+			1.2.3 Inheritance<br />
+			1.2.4 Reusability<br />
+			1.2.5 Polymorphism & overloading<br />
+	1.3 Applications of OOP<br />
   
-   
-1. Introduction to object oriented programming. <br /> 
-	1.1 Procedural language vs OOP. <br />
-	1.2 Characteristics of object-oriented languages. 
-		1.2.1 Objects. 
-		1.2.2 Classes. 
-		1.2.3 Inheritance. 
-		1.2.4 Reusability. 
-		1.2.5 Polymorphism & overloading. 
-	1.3 Applications of OOP. 
-  
-2. C++ programming concept   
+3. C++ programming concept   
 	2.1 Introduction to programming in C++. 
 	2.2 Extraction operator (>>). 
 	2.3 Insertion operator (<<). 
@@ -26,7 +26,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	2.8 Const. 
 	2.9 Enumeration. 
   
-3. Functions used in C++.    
+4. Functions used in C++.    
 	3.1 Introduction to functions. 
 	3.2 Passing arguments to functions. 
 	3.3 Returning values from functions. 
@@ -38,7 +38,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	3.7 Default arguments. 
 	3.8 Inline functions. 
   
-4. Classes and objects. 
+5. Classes and objects. 
 	4.1 Introduction. 
 	4.2 Access specifier (public, private and protected). 
 	4.3 Accessing class members. 
@@ -59,7 +59,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	4.13 Friend classes. 
   
   
-5. Operator overloading. 
+6. Operator overloading. 
 	5.1 Introduction to operator overloading
 	5.2 General rules for overloading operator
 	5.3 Operator overloading restrictions
@@ -70,7 +70,7 @@ Each topic consists of detailed explanations, notes, Programs.
 		5.6.2 Conversion between object and basic types
 		5.6.3 Conversion between objects of different classes
 
-6. Virtual functions and Polymorphism
+7. Virtual functions and Polymorphism
 	6.1 Introduction
 	6.2 Early vs late binding
 	6.3 Virtual functions
@@ -78,7 +78,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	6.5 Abstract classes
 6.6 Virtual base classes
 
-7. Inheritance
+8. Inheritance
 	7.1 Introduction & benefits of inheritance
 	7.2 Types of inheritance
 	7.3 Inheritance: base classes & derived classes
@@ -95,7 +95,7 @@ Each topic consists of detailed explanations, notes, Programs.
 		7.8.1 Constructors Build Up
 		7.8.2 Destructors Tear Down
 
-8. Templates
+9. Templates
 	8.1 Introduction to templates
 		8.1.1 Function templates
 		8.1.2 Class templates
@@ -105,12 +105,12 @@ Each topic consists of detailed explanations, notes, Programs.
 		8.3.2 Using the scope resolution operator
 		8.3.3 through “using” keyword
 
-9. Exception handling 
+10. Exception handling 
 	9.1 Introduction to exceptions
 	9.2 Exception handling model
 	9.3 Exception handling construct: try, catch, throw
 
-10. File handling
+11. File handling
 	10.1 Introduction
 	10.2 Opening and closing file
 	10.3 Opening file using constructor
