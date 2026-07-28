@@ -1075,28 +1075,6 @@ Thus, a class defines a group of objects with similar attributes, common operati
 
 
 
-
-**Program**
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int square(int n) {        // function definition
-    return n * n;
-}
-
-int main() {
-    int result = square(6);   // function call
-    cout << "Square: " << result << endl;
-    return 0;
-}
-```
-
-**Explanation**
-
-`square(int n)` is defined once and can be called any number of times with different inputs. `main()` calls it with `6`, receives `36` back, and stores it in `result` — the caller doesn't need to know or care *how* squaring is computed internally, only what it does.
-
 ---
 
 ## Repository Structure
