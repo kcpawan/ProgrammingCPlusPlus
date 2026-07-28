@@ -16,7 +16,7 @@ Each topic consists of detailed explanations, notes, Programs.
 	1.3 Applications of OOP<br />
 
 
-2. C++ programming concept<br />   
+2. C++ programming concept<br />
 	2.1 Introduction to programming in C++<br />
 	2.2 Extraction operator (>>)<br />
 	2.3 Insertion operator (<<)<br />
@@ -27,36 +27,36 @@ Each topic consists of detailed explanations, notes, Programs.
 	2.8 Const<br />
 	2.9 Enumeration<br /> 
 
-3. Functions used in C++<br />     
-	3.1 Introduction to functions<br />  
-	3.2 Passing arguments to functions<br />  
-	3.3 Returning values from functions<br /> 
-	3.4 Reference arguments<br /> 
-	3.5 Returning by reference<br />  
-	3.6 Functions overloading<br /> 
-		3.6.1 Different number of arguments<br />   
-		3.6.2 Different kinds of arguments<br /> 
-	3.7 Default arguments<br /> 
+3. Functions used in C++<br />
+	3.1 Introduction to functions<br />
+	3.2 Passing arguments to functions<br />
+	3.3 Returning values from functions<br />
+	3.4 Reference arguments<br />
+	3.5 Returning by reference<br />
+	3.6 Functions overloading<br />
+			3.6.1 Different number of arguments<br />
+			3.6.2 Different kinds of arguments<br />
+	3.7 Default arguments<br />
 	3.8 Inline functions<br />
 	
-4. Classes and objects<br />  
-	4.1 Introduction<br />  
-	4.2 Access specifier (public, private and protected)<br />  
-	4.3 Accessing class members<br /> 
-	4.4 Defining member functions<br /> 
-		4.4.1 Member function inside the class body<br />  
-		4.4.2 Member function outside the class body<br /> 
-	4.5 “this” pointer<br /> 
+4. Classes and objects<br />
+	4.1 Introduction<br />
+	4.2 Access specifier (public, private and protected)<br />
+	4.3 Accessing class members<br />
+	4.4 Defining member functions<br />
+			4.4.1 Member function inside the class body<br />
+			4.4.2 Member function outside the class body<br />
+	4.5 “this” pointer<br />
 	4.6 Constructor & destructor<br /> 
 	4.7 Types of constructor<br /> 
 		4.7.1 Default constructor<br /> 
 		4.7.2 Parameterized constructor<br /> 
 		4.7.3 Copy constructor<br /> 
-	4.8 Overloaded constructors<br />  
+	4.8 Overloaded constructors<br />
 	4.9 Static data member<br /> 
 	4.10 Static member functions<br /> 
-	4.11 Passing objects as arguments<br /> 
-	4.12 Friend functions<br />     
+	4.11 Passing objects as arguments<br />
+	4.12 Friend functions<br />
 	4.13 Friend classes<br />
 
 5. Operator overloading<br />
