@@ -1062,6 +1062,43 @@ Because `square()` is marked `inline` and is trivially small, the compiler may r
 
 ---
 
+# Chapter 4: Classes and objects
+
+## 4.1 Introduction
+- Objects and Classes are key to understand the Object-Oriented Programming Language (OOPL)/Object-Oriented Technique. Object-Oriented Programming Languages are based on the concept of abstraction modeled by classes and objects.
+- Classes and objects are the cornerstones of Object-Oriented Programming (OOP) in C++. They enable programmers to create modular, reusable, and maintainable code. In this article, we will dive deep into understanding what classes and objects are, explore their functionalities, and learn how to implement them in C++ effectively.
+- Classification is one of the important concepts of Object-Oriented philosophy including identity, abstraction, encapsulation, inheritance, polymorphism, and persistence.
+
+**Object-Oriented uses classification to group objects that have attributes and behaviors in common and classify them into bigger entities. The bigger entity is called a “class”.**
+
+Thus, a class defines a group of objects with similar attributes, common operations, a common relationship to the other objects in the class, and common semantics.
+
+
+
+
+**Program**
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int square(int n) {        // function definition
+    return n * n;
+}
+
+int main() {
+    int result = square(6);   // function call
+    cout << "Square: " << result << endl;
+    return 0;
+}
+```
+
+**Explanation**
+
+`square(int n)` is defined once and can be called any number of times with different inputs. `main()` calls it with `6`, receives `36` back, and stores it in `result` — the caller doesn't need to know or care *how* squaring is computed internally, only what it does.
+
+---
+
 ## Repository Structure
 
 ```
@@ -1105,7 +1142,7 @@ ProgrammingCPlusPlus/
 │    │    ├── 3.7-Default-Arguments/
 │    │    └── 3.8-Inline-Functions/
 │    ├── 04-Classes and objects/
-│    │     ├── 4.1- Introduction/
+│    │    ├── 4.1- Introduction/
 │    │	  ├── 4.2 Access specifier (public, private and protected)/
 │    │	  ├── 4.3 Accessing class members/
 │    │	  ├── 4.4 Defining member functions/
