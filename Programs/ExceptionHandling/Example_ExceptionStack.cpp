@@ -1,7 +1,7 @@
 #include <iostream>
 #include <exception>
 using namespace std;
- 
+
 class InsufficientFunds : public exception {
     double shortfall;
 public:
@@ -11,6 +11,7 @@ public:
     }
     double getShortfall() const { return shortfall; }
 };
+
 class Account {
     double balance;
 public:
@@ -19,16 +20,18 @@ public:
         if (amt > balance)
             throw InsufficientFunds(amt - balance);
         balance -= amt;
-        cout << "Withdrew " << amt << ". Balance: " << balance;
+        cout << "Withdrew " << amt << ". Balance: " << balance << endl;
     }
 };
+
 int main() {
     Account acc(1000);
     try {
-        acc.withdraw(400);
-        acc.withdraw(800);
+        acc.withdraw(400);  // Success
+        acc.withdraw(800);  // Throws exception!
     }
     catch (const InsufficientFunds& e) {
-        cout << e.what() << ". Short by " << e.getShortfall();
+        cout << e.what() << ". Short by " << e.getShortfall() << endl;
     }
+    return 0;
 }

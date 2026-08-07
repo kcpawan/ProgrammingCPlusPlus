@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 using namespace std;
 double divide(double a, double b) {
     if(b == 0)

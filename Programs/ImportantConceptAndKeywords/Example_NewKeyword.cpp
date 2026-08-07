@@ -3,10 +3,10 @@ using namespace std;
 
 /*
 Author : Pawan KC
-Date:
-Program Description:
+Date: 2026-08-07
+Program Description:This Program exhbits the pointer with constant.
 */
 
 int main() {
-return 0;
+   return 0;
 }
